@@ -1,4 +1,2 @@
-# kwangstory
-
-
+# Initial page
 
