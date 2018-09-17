@@ -44,7 +44,7 @@ stack-1 에서 소스 변수에 해당 매개 변수가 없는 경우에도 runI
 소스 코드에서 타입 byte,short,char 는 지역 변수에서 int가 됩니다. 이것은 피연산자 스택에도 적용됩니다. 앞서 언급했듯이 boolean 유형은 Java 가상 머신에 의해 직접 지원되지 않습니다. 자바 컴파일러는 항상 int 를 사용 하여 로컬 변수 또는 피연산자 스택의 값 을 나타냅니다 . 그러나 byte, short, char들은 Java 가상 시스템에서 직접 지원됩니다. 이들은 힙에 인스턴스 변수 또는 배열 요소로 저장되거나 메소드 영역에는 클래스 변수로 저장 될 수 있습니다. 로컬 변수 또는 오퍼랜드 스택에 배치 된 경우에 byte, short, char들은 int로 변환되어 저장됩니다. byte, short, char 들은 Stack frame안에서는 int로 관리되며 heap or method area에 다시 저장될때는 byte, short, char로 변환됩니다.  
 
 
-
+또한 runClassMethod\(\)를 보면 Object o가 reference로 전달됩니다 자바에서는 모든 객체가 reference로 전달됩니다. 모든 객체가 힙에 저장되므로 로컬 변수 나 피연산자 스택에서 객체의 이미지를 찾을 수 없고 reference만 찾을 수 있습니다.
 
 
 
