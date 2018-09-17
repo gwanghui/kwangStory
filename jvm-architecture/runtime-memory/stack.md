@@ -39,5 +39,12 @@ class Example3a {
 
 ![stack-1\) Method parameters on the local variables section of Java stack](../../.gitbook/assets/fig5-9.gif)
 
+stack-1 에서 소스 변수에 해당 매개 변수가 없는 경우에도 runInstanceMethod\(\) 지역 변수의 첫 번째 매개 변수는 reference입니다. 이것은 모든 인스턴스 메소드로 전달 되는 숨겨진 참조\(this\)입니다. 인스턴스 메소드는 이 참조를 사용하여 호출 된 오브젝트의 인스턴스 데이터에 액세스합니다. 그림 5-9 runClassMethod\(\)의 지역 변수를 보면 알 수 있듯이 클래스 메소드는 숨겨진 값\(this\)을 받지 못합니다. 클래스 메소드는 객체에서 호출되지 않습니다. 메소드 호출과 연관된 인스턴스가 없기 때문에 클래스 메소드에서 클래스의 인스턴스 변수에 직접 액세스 할 수 없습니다.
+
+소스 코드에서 타입 byte,short,char 는 지역 변수에서 int가 됩니다. 이것은 피연산자 스택에도 적용됩니다. 앞서 언급했듯이 boolean 유형은 Java 가상 머신에 의해 직접 지원되지 않습니다. 자바 컴파일러는 항상 int 를 사용 하여 로컬 변수 또는 피연산자 스택의 값 을 나타냅니다 . 그러나 byte, short, char들은 Java 가상 시스템에서 직접 지원됩니다. 이들은 힙에 인스턴스 변수 또는 배열 요소로 저장되거나 메소드 영역에는 클래스 변수로 저장 될 수 있습니다. 로컬 변수 또는 오퍼랜드 스택에 배치 된 경우에 byte, short, char들은 int로 변환되어 저장됩니다. byte, short, char 들은 Stack frame안에서는 int로 관리되며 heap or method area에 다시 저장될때는 byte, short, char로 변환됩니다.  
+
+
+
+
 
 
