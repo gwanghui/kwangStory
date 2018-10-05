@@ -15,4 +15,6 @@
   * [Java Script](web/java-script/README.md)
     * [ES4](web/java-script/es4/README.md)
       * [Prototype](web/java-script/es4/prototype.md)
+* [Crypto](crypto/README.md)
+  * [AES](crypto/aes.md)
 
