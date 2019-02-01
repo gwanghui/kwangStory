@@ -20,7 +20,8 @@
   * [인증서](crypto/undefined.md)
 * [SLACK](slack/README.md)
   * [Integration](slack/integration.md)
-* [Cassandra](cassandra.md)
 * [Cassandra](cassandra-1/README.md)
   * [Chapter 1. Beyond Relational Databases](cassandra-1/chapter-1.-beyond-relational-databases.md)
+  * [Chapter 5.](cassandra-1/chapter-5..md)
+  * [Chapter 6. The Cassandra Architecture](cassandra-1/chapter-6.-the-cassandra-architecture.md)
 
