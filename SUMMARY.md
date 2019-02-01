@@ -21,4 +21,6 @@
 * [SLACK](slack/README.md)
   * [Integration](slack/integration.md)
 * [Cassandra](cassandra.md)
+* [Cassandra](cassandra-1/README.md)
+  * [Chapter 1. Beyond Relational Databases](cassandra-1/chapter-1.-beyond-relational-databases.md)
 
