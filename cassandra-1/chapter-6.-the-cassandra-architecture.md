@@ -9,6 +9,14 @@
 
 ![](../.gitbook/assets/6-1.PNG)
 
+* 카산드라는 하나의 데이터 센터에 하나의 Rack이 있는 디폴트 설정으로 존재한다.
+
+## Gossip And Failure Detection
+
+* 탈 중앙화와 분할 내성을 지원함 \( decentralization and partition tolerance\)
+* Gossip Protocol\(epidemic protocols\) 으로 같은 클러스터에 있는 서로 다른 노드들의 상태를 유지한다.
+* Gossiper가 매초마다 수행된다.
+* 
 
 
 
