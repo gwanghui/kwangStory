@@ -13,6 +13,7 @@
   * [PWA](web/pwa/README.md)
     * [What's a Basic PWA](web/pwa/whats-a-basic-pwa.md)
     * [What's an Exemplary PWA?](web/pwa/whats-an-exemplary-pwa.md)
+    * [Service Worker](web/pwa/service-worker.md)
     * [App Shell Model](web/pwa/app-shell-model.md)
   * [Browser](web/browser/README.md)
     * [Specification](web/browser/specification.md)
