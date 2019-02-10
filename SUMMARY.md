@@ -11,6 +11,7 @@
     * [Stack](jvm-architecture/runtime-memory/stack.md)
 * [Web](web/README.md)
   * [PWA](web/pwa/README.md)
+    * [What's an Exemplary PWA?](web/pwa/whats-an-exemplary-pwa.md)
     * [App Shell Model](web/pwa/app-shell-model.md)
   * [Browser](web/browser/README.md)
     * [Specification](web/browser/specification.md)
@@ -26,4 +27,5 @@
   * [Chapter 1. Beyond Relational Databases](cassandra-1/chapter-1.-beyond-relational-databases.md)
   * [Chapter 5.](cassandra-1/chapter-5..md)
   * [Chapter 6. The Cassandra Architecture](cassandra-1/chapter-6.-the-cassandra-architecture.md)
+* [What's a Basic PWA](whats-a-basic-pwa.md)
 
