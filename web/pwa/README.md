@@ -16,5 +16,7 @@
 
 {% embed url="https://serviceworke.rs/" %}
 
+{% embed url="https://caniuse.com/\#feat=serviceworkers" %}
+
 
 
