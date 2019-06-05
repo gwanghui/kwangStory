@@ -8,3 +8,6 @@
 
 - chrome dev summit
   - https://medium.com/naver-fe-platform/chrome-dev-summit-2018-day-1-keynote-16d07501b313
+
+- web authn
+  - https://webauthn4j.github.io/webauthn4j/en/
