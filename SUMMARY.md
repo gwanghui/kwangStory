@@ -25,6 +25,7 @@
       * [Render Processes\(Renderers\)](web/browser/chromium/render-processes-renderers.md)
       * [Detecting Crash or misbehaving renderer](web/browser/chromium/detecting-crash-or-misbehaving-renderer.md)
       * [Giving back memory](web/browser/chromium/giving-back-memory.md)
+      * [Plug-in](web/browser/chromium/plug-in.md)
   * [Java Script](web/java-script/README.md)
     * [ES4](web/java-script/es4/README.md)
       * [Prototype](web/java-script/es4/prototype.md)
