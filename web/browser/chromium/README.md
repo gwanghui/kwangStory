@@ -11,3 +11,6 @@
 
 ![](../../../.gitbook/assets/multi-process-architecture-chromium.png)
 
+* How Chromium Displays Web Pages 
+  * [https://www.chromium.org/developers/design-documents/displaying-a-web-page-in-chrome](https://www.chromium.org/developers/design-documents/displaying-a-web-page-in-chrome)
+
