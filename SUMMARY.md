@@ -23,6 +23,7 @@
       * [Layout Engine](web/browser/chromium/layout-engine.md)
       * [IPC System each Render Process](web/browser/chromium/ipc-system-each-render-process.md)
       * [Render Processes\(Renderers\)](web/browser/chromium/render-processes-renderers.md)
+      * [Detecting Crash or misbehaving renderer](web/browser/chromium/detecting-crash-or-misbehaving-renderer.md)
   * [Java Script](web/java-script/README.md)
     * [ES4](web/java-script/es4/README.md)
       * [Prototype](web/java-script/es4/prototype.md)
