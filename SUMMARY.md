@@ -44,4 +44,6 @@
   * [Chapter 5.](cassandra-1/chapter-5..md)
   * [Chapter 6. The Cassandra Architecture](cassandra-1/chapter-6.-the-cassandra-architecture.md)
 * [Authorization & Authentication](authorization-and-authentication.md)
+* [Search](search/README.md)
+  * [Algorithm](search/algorithm.md)
 
