@@ -3,6 +3,7 @@
 * [Intro](README.md)
 * [Concurrency](concurrency/README.md)
   * [Compare and Swap](concurrency/compare-and-swap.md)
+  * [Thread Safe VS Reentrant](concurrency/thread-safe-vs-reentrant.md)
 * [TCP](tcp/README.md)
   * [Flow](tcp/flow.md)
 * [JVM Architecture](jvm-architecture/README.md)
