@@ -13,3 +13,5 @@
 * ACID
 * ATOMIC
 
+[http://tutorials.jenkov.com/java-concurrency/locks.html](http://tutorials.jenkov.com/java-concurrency/locks.html)
+
