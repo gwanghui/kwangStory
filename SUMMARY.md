@@ -11,6 +11,7 @@
     * [PC Register](jvm-architecture/runtime-memory/pc-register.md)
     * [Stack](jvm-architecture/runtime-memory/stack.md)
 * [Web](web/README.md)
+  * [Tomcat](web/tomcat.md)
   * [PWA](web/pwa/README.md)
     * [What's a Basic PWA](web/pwa/whats-a-basic-pwa.md)
     * [What's an Exemplary PWA?](web/pwa/whats-an-exemplary-pwa.md)
