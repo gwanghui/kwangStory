@@ -11,6 +11,8 @@
   * [Runtime Memory](jvm-architecture/runtime-memory/README.md)
     * [PC Register](jvm-architecture/runtime-memory/pc-register.md)
     * [Stack](jvm-architecture/runtime-memory/stack.md)
+    * [Heap](jvm-architecture/runtime-memory/heap/README.md)
+      * [Reference Object in Java](jvm-architecture/runtime-memory/heap/reference-object-in-java.md)
 * [Web](web/README.md)
   * [Tomcat](web/tomcat.md)
   * [PWA](web/pwa/README.md)
