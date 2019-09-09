@@ -2,6 +2,7 @@
 
 * [Intro](README.md)
 * [Concurrency](concurrency/README.md)
+  * [Thread Local](concurrency/thread-local.md)
   * [Compare and Swap](concurrency/compare-and-swap.md)
   * [Thread Safe VS Reentrant](concurrency/thread-safe-vs-reentrant.md)
 * [TCP](tcp/README.md)
