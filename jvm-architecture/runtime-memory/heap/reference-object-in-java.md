@@ -28,7 +28,13 @@ Java GC는 root set으로부터 시작해서 객체에 대한 모든 경로를 �
 
 root set으로부터 바로 SoftReference를 통해서 B를 참조할 수 있기 때문이다. 만약 root set의 SoftReference에 대한 참조가 없다면\(즉, 왼쪽 아래 화살표를 삭제한다면\), 객체 B는 phantomly reachable이 된다.
 
-[https://d2.naver.com/helloworld/329631](https://d2.naver.com/helloworld/329631)
+요
 
+* Java GC는 GC 대상 객체를 찾고, 대상 객체를 처리\(finalization\)하고, 할당된 메모리를 회수하는 작업으로 구성된다.
+* 애플리케이션은 사용자 코드에서 객체의 reachability를 조절하여 Java GC에 일부 관여할 수 있다.
+* 객체의 reachability를 조절하기 위해서 java.lang.ref 패키지의 SoftReference, WeakReference, PhantomReference, ReferenceQueue 등을 사용한다.
 
+개인적으로는 내부 캐시 등을 구현하고자 하는 대부분의 애플리케이션에서는 WeakReference 혹은 이를 이용한 WeakHashMap만으로도 충분하다고 생각한다. 다른 애플리케이션에서는 가끔 SoftReference를 사용하는 경우도 있지만, PhantomReference는 거의 예제가 없으며 그만큼 불필요할 것이다. 이들 Java Reference들과 관련된 GC 동작을 잘 이해하면 Java의 heap 메모리 문제에서 더욱 유연한 애플리케이션 작성에 크게 도움이 될 것이다.
+
+{% embed url="https://d2.naver.com/helloworld/329631" %}
 
