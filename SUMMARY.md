@@ -38,6 +38,7 @@
       * [Prototype](web/java-script/es4/prototype.md)
     * [Source Map](web/java-script/source-map/README.md)
       * [CSS 및 JS 전처리기 설정](web/java-script/source-map/css-js.md)
+    * [Transpile vs Compile](web/java-script/transpile-vs-compile.md)
 * [Crypto](crypto/README.md)
   * [AES](crypto/aes.md)
   * [인증서](crypto/undefined.md)
