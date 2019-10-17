@@ -60,4 +60,8 @@
     * [과정](network/http3/undefined.md)
     * [프로토콜 기능](network/http3/undefined-1.md)
     * [QUIC의 동작방식](network/http3/quic-1.md)
+    * [HTTP/3](network/http3/http-3.md)
+    * [일반적인 비판](network/http3/undefined-2.md)
+    * [명세](network/http3/undefined-3.md)
+    * [QUIC v2](network/http3/quic-v2.md)
 
